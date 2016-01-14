@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Signup Form</title>
+</head>
+<body>
+
+	<h1>Signup Form</h1>
+
+	<form name="signup_form" id="signup_form"
+		action="../Server/check_signup.php" method="post">
+
+		<p>
+			Username <input type="text" name="uname" size="50" maxlength="50">
+		</p>
+
+		<p>
+			Password <input type="text" name="pwd" size="50" maxlength="50">
+		</p>
+
+		<p>
+			Email <input type="text" name="email" size="50" maxlength="50">
+		</p>
+
+		<p>
+			Date of Birth <input type="text" name="dob" size="10" maxlength="10">
+		</p>
+
+		<p>
+			Sex: <input type="radio" name="sex" value="male">Male <input
+				type="radio" name="sex" value="female">Female
+		</p>
+
+		<p>
+			State <input type="text" name="state" size="20" maxlength="20">
+		</p>
+
+		<p>
+			City <input type="text" name="city" size="20" maxlength="20">
+		</p>
+
+		<p>
+			Newsletter: <input type="radio" name="news" value="yes">Yes <input
+				type="radio" name="news" value="no">No
+		</p>
+
+		<p>
+			<input type="submit" name="submit" value="submit" />
+		</p>
+
+	</form>
+
+</body>
+</html>
